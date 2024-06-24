@@ -49,7 +49,7 @@ module.exports = {
     REJECT_CALLS: convertToBool(process.env.REJECT_CALLS) || false,
     PMB: process.env.PMB || '_Personal messages not allowed, BLOCKED!_',
     READ_COMMAND: convertToBool(process.env.READ_COMMAND) || true,
-    SESSION: (process.env.SESSION || process.env.SESSION_ID || '').trim() || '',
+    SESSION: (process.env.SESSION || process.env.SESSION_ID || '').trim() || 'Raganork~bce91c09d3311f2ed57e96d9c79bd1e7:547444624e4668324448593d',
     IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
     RG: process.env.RG || '923082990885-923014705065@g.us,120363116963909366@g.us',
     BOT_INFO: process.env.BOT_INFO || '𝐿𝑈𝐶𝛪𝐹𝛯𝑅;𝙇𝙐𝘾𝞘𝙁𝞢𝞒;0;https://i.imgur.com/pbNNWfM.jpeg',
