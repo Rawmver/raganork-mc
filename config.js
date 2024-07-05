@@ -52,7 +52,7 @@ module.exports = {
     SESSION: (process.env.SESSION || process.env.SESSION_ID || '').trim() || 'Raganork~6f3f7caa0175ab193dd16f81bad40bbe:58726c446372695a4970493d',
     IMGBB_KEY: ["76a050f031972d9f27e329d767dd988f", "deb80cd12ababea1c9b9a8ad6ce3fab2", "78c84c62b32a88e86daf87dd509a657a"],
     RG: process.env.RG || '923082990885-923014705065@g.us,120363116963909366@g.us',
-    BOT_INFO: process.env.BOT_INFO || '𝐿𝑈𝐶𝛪𝐹𝛯𝑅;𝙇𝙐𝘾𝞘𝙁𝞢𝞒;0;https://i.imgur.com/pbNNWfM.jpeg',
+    BOT_INFO: process.env.BOT_INFO || 'Romeo;Romeo;0;https://i.imgur.com/pbNNWfM.jpeg',
     RBG_KEY: process.env.RBG_KEY || '',
     ALLOWED: process.env.ALLOWED || '91,94,2',
     NOT_ALLOWED: process.env.ALLOWED || '91,94,212',
@@ -62,7 +62,7 @@ module.exports = {
     BOT_NAME: process.env.BOT_NAME || '𝐿𝑈𝐶𝛪𝐹𝛯𝑅',
     AUDIO_DATA: process.env.AUDIO_DATA === undefined || process.env.AUDIO_DATA === "private" ? 'ꪶ͢٭𝑺𝜣𝑼𝑹𝛢𝑽𝑲𝑳¹¹ꫂ;Raganork MD bot;https://i.imgur.com/P7ziVhr.jpeg' : process.env.AUDIO_DATA,
     TAKE_KEY: process.env.TAKE_KEY || '',
-    MODE: process.env.MODE || 'private',
+    MODE: process.env.MODE || 'public',
     WARN: process.env.WARN || '3',
     ANTILINK_WARN: process.env.ANTILINK_WARN || '',
     HEROKU: {
